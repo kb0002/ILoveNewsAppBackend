@@ -8,7 +8,7 @@ const NEWS_API_KEY = '0436cc653bfa484b8adcba9735751ecf'; // Replace with your Ne
 app.use(express.json());
 
 app.use(cors({
-  origin: 'https://aab019.github.io/NewsAppFrontend/',
+  origin: 'https://kb0002.github.io/NewsAppFrontend/',
   credentials: true,
 }));
 app.get('/news', async (req, res) => {
